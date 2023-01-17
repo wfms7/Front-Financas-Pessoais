@@ -1,0 +1,16 @@
+.footer{
+    background-color: var(--preto);
+
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer__titulo{
+    color: var(--branco);
+    margin-right: 1em;
+    padding: 1.5em;
+}
+

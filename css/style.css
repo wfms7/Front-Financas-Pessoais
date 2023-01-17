@@ -1,0 +1,33 @@
+@import url("header.css");
+@import url("titulo.css");
+@import url("card.css");
+@import url("cardChart.css");
+@import url("cardLista.css");
+@import url("footer.css");
+
+
+@font-face {
+    font-family: 'Fire' ;
+    src: url("../font/Fira_Sans/FiraSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --fonte-principal: 'Fire';
+    --cinza:#F0F8FF;    
+    --cinza2:hsl(340, 11%, 95%); 
+    --preto:#382f32;
+    --preto-comTransparencia:#382f3289;
+    --branco:#ffffff;
+    --rosa-mais-claro: #fcd9e5 ;
+    --rosa:#fbc5d8;
+    --rosa-escuro: #f1396d;
+    
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    background-color: var(--cinza);
+}
