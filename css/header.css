@@ -22,6 +22,9 @@
 .header__user-acronym{
     padding: .5em;
 }
+.nav-menu{
+    background-color:var(--cinza2  );
+}
 
 .nav-menu__container{
     background-color: var(--cinza2  );
@@ -74,6 +77,9 @@
 }
 
 @media screen and (min-width: 1280px){
+    .header__container{
+        justify-content: center;
+            }
     .header__imagem-logo{
         width: 20%;
     }
@@ -87,20 +93,23 @@
     .header__menu{
         display: none;
     }
-    .header__container{
-justify-content: center;
-    }
+ 
     .nav-menu{
         display: inline-block;
 
     }
+    .nav-menu{
+        z-index: -1;
+    }
 
     .nav-menu__container{
         display: inline-block;
-        left: 0;
+        left: auto;
         width: 200px;
-       height: 100vh;
-       position: absolute;
+         height: 100vh;
+         position: fixed;
+         z-index: 0;
+      
     }
     
 }

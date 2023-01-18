@@ -121,18 +121,21 @@ margin-bottom: 0.2em;
  @media screen and (min-width: 1280px){
    
     
-    .card-boas-vindas__container{
-        margin: 0 auto;
-        width: 60%;
-    }
-
     .container-card{
-        margin: 0 auto;
-        width: 70%;
+      
+        width: 900px;
         row-gap: 2em;
-        
+        grid-template-columns: 1fr 1fr ;
+        margin: 0 auto;
 
     }
+
+
+    .card-boas-vindas__container{
+        
+        width: 600px;
+    }
+
  }
    
 }

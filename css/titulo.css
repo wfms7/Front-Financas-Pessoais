@@ -20,7 +20,8 @@
 
 @media screen and (min-width: 1280px){
     .titulo{
+        margin-left: 10%;
         width: 50%;
-        margin: 0 auto;
+       
     }
 }
