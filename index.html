@@ -67,21 +67,21 @@
         <section class="card-grafico">
             <div class="card-grafico__container">
                 <h2 class="card-grafico__titulo">Total de Gasto</h2>
-                <div class="card-grafico__chart"><canvas id="totalGasto"></canvas></div>
+                <div class="card-grafico__chart"><div id="totalGasto"></div></div>
             </div>
 
         </section>
         <section class="card-grafico">
             <div class="card-grafico__container">
-                <h2 class="card-grafico__titulo">Total de Gasto Cartão</h2>
-                <div class="card-grafico__chart"><canvas id="pizza"></canvas></div>
+                <h2 class="card-grafico__titulo">Total de Gasto do Cartão</h2>
+                <div class="card-grafico__chart"><div id="GastoCartao"></div></div>
             </div>
 
         </section>
         <section class="card-grafico">
             <div class="card-grafico__container">
-                <h2 class="card-grafico__titulo">Total de Gasto</h2>
-                <div class="card-grafico__chart"><canvas id="bar"></canvas></div>
+                <h2 class="card-grafico__titulo">Total de Gasto no Mês</h2>
+                <div class="card-grafico__chart"><div id="GastosMes"></div></div>
             </div>
         </section>
     </div>
@@ -159,8 +159,10 @@
         </div>
     </footer>
     <script src="./js/main.js" type="module"></script>
-    <script src="./node_modules/chart.js/dist/chart.umd.js"></script>
-    <script src="./js/chart.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./js/totalGastoChart.js" type="module"></script>
+    <script src="./js/GastoCartaoCharts.js" type="module"></script>
+    <script src="./js/GastosMesChart.js" type="module"></script>
    
 
 </body>

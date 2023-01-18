@@ -125,7 +125,8 @@ margin-bottom: 0.2em;
       
         width: 900px;
         row-gap: 2em;
-        grid-template-columns: 1fr 1fr ;
+        column-gap: 1em;
+        grid-template-columns: 1fr auto ;
         margin: 0 auto;
 
     }
