@@ -6,6 +6,7 @@
 @import url("footer.css");
 
 
+
 @font-face {
     font-family: 'Fire' ;
     src: url("../font/Fira_Sans/FiraSans-Regular.ttf") format('truetype');
@@ -26,7 +27,8 @@
     
 }
 
-body{
+ body{
+   
     font-family: var(--fonte-principal);
     font-size: 14px;
     background-color: var(--cinza);

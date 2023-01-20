@@ -9,17 +9,17 @@
     <title>Finanças Pessoais</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
+    <header class="header" data-headerMenu>
+      <!--  <div class="header__container">
         <button class="header__menu" id="menu-nav"><img class="header__menu-imagem" src="img/menu.svg" alt="menu"> </button>
         <img class="header__imagem-logo" src="img/Logo.png" alt="Logo Finança Pessoal">
         <div class="header__user">
            <p class="header__user-acronym">WF</p>       
         </div>
-        </div>
+        </div> -->
     </header>
-    <nav class="nav-menu">
-        <div class="nav-menu__container" data-navmenu>
+    <nav class="nav-menu" data-headerNav>
+     <!--   <div class="nav-menu__container" data-navmenu>
             <ul class="nav-menu__lista">
                 <li class="nav-menu__item nav-menu__item--ativo "><a href="#" class="nav-menu__link nav-menu__link--ativo">Dashboard</a></li>
                 <li class="nav-menu__item"><a href="#" class="nav-menu__link">Perfil</a></li>
@@ -27,7 +27,7 @@
                 <li class="nav-menu__item"><a href="#" class="nav-menu__link">Cartão de Credito</a></li>
                 <li class="nav-menu__item"><a href="#" class="nav-menu__link">Renda</a></li>
             </ul>
-        </div>
+        </div> -->
     </nav>
     <main class="main">
         <section class="titulo">
@@ -132,7 +132,7 @@
                         <p class="lista-ultimo-gasto__data">19/12/2022</p>
                     </li>
                     <li class="lista-ultimos-gastos__item">
-                        <h3 class="lista-ultimo-gasto__item-titulo">Farmácia</h3>
+                        <h3 class="lista-ultimo-gasto__item-titulo">Farmcia</h3>
                         <p class="lista-ultimo-gasto__valor">R$ 175,23</p>
                         <p class="lista-ultimo-gasto__data">15/12/2022</p>
                     </li>
@@ -158,6 +158,7 @@
             
         </div>
     </footer>
+   <script src="../js/menu.js"></script>
     <script src="./js/main.js" type="module"></script>
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="./js/totalGastoChart.js" type="module"></script>
