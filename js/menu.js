@@ -12,7 +12,7 @@ console.log(pag)
       urlPage ='..'
    }
 
-   console.log(!url.includes ('/index.html'))
+
    
 
     headerMenu.innerHTML = `
