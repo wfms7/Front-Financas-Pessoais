@@ -5,14 +5,16 @@ const url=  window.location.pathname;
 
  function criarMenu(){
    let urlPage =''
-   if(url != '/' && url != '/index.html')
+   if(url != '/' && !url.includes ('/index.html'))
    {
       urlPage ='..'
    }
 
+   
+
     headerMenu.innerHTML = `
          <div class="header__container">
-        <button class="header__menu" id="menu-nav" ><img class="header__menu-imagem" src="../img/menu.svg" alt="menu"> </button>
+        <button class="header__menu" id="menu-nav" ><img class="header__menu-imagem" src="${urlPage}/img/menu.svg" alt="menu"> </button>
         <img class="header__imagem-logo" src="../img/Logo.png" alt="Logo Finança Pessoal">
         <div class="header__user">
            <p class="header__user-acronym">WF</p>       
@@ -41,7 +43,7 @@ const url=  window.location.pathname;
  function marcarAtiva(){
 
    navAtiva.forEach(nav  =>{
-     if(url != '/' && url != '/index.html')
+     if(url != '/' && !url.includes ('/index.html'))
      {
       if( nav.href.includes(url) ){
         nav.classList.add('nav-menu__link--ativo');
