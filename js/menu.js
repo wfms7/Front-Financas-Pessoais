@@ -1,11 +1,13 @@
 const headerMenu = document.querySelector('[data-headerMenu]');
 const headerNav = document.querySelector('[data-headerNav]');
-const url=  window.location.pathname;
 
+const pag =  document.querySelector('[data-pag]').dataset.pag; 
+
+console.log(pag)
 
  function criarMenu(){
-   let urlPage =''
-   if(url != '/' && !url.includes ('/index.html'))
+   let urlPage ='.'
+   if(pag.value != 'index')
    {
       urlPage ='..'
    }
@@ -43,9 +45,9 @@ const url=  window.location.pathname;
  function marcarAtiva(){
 
    navAtiva.forEach(nav  =>{
-     if(url != '/' && !url.includes ('/index.html'))
+     if(pag.value != 'index')
      {
-      if( nav.href.includes(url) ){
+      if( nav.href.includes(pag) ){
         nav.classList.add('nav-menu__link--ativo');
         nav.parentElement.classList.add('nav-menu__item--ativo');
 
