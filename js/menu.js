@@ -10,6 +10,7 @@ const url=  window.location.pathname;
       urlPage ='..'
    }
 
+   console.log(!url.includes ('/index.html'))
    
 
     headerMenu.innerHTML = `
