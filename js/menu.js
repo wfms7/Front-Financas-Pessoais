@@ -21,7 +21,7 @@ const pag =  document.querySelector('[data-pag]').dataset.pag;
     headerMenu.innerHTML = `
          <div class="header__container">
         <button class="header__menu" id="menu-nav" ><img class="header__menu-imagem" src="${srcLogo}/menu.svg" alt="menu"> </button>
-        <img class="header__imagem-logo" src="../img/Logo.png" alt="Logo Finança Pessoal">
+        <img class="header__imagem-logo" src="${srcLogo}/Logo.png" alt="Logo Finança Pessoal">
         <div class="header__user">
            <p class="header__user-acronym">WF</p>       
         </div>
