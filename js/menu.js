@@ -3,16 +3,17 @@ const headerNav = document.querySelector('[data-headerNav]');
 
 const pag =  document.querySelector('[data-pag]').dataset.pag; 
 
-console.log(pag)
+
 
  function criarMenu(){
    let urlPage ='.'
-   if(pag.value != 'index')
+   if(pag !== 'index')
    {
+   
       urlPage ='..'
    }
 
-
+     
    
 
     headerMenu.innerHTML = `
@@ -46,7 +47,7 @@ console.log(pag)
  function marcarAtiva(){
 
    navAtiva.forEach(nav  =>{
-     if(pag.value != 'index')
+     if(pag!= 'index')
      {
       if( nav.href.includes(pag) ){
         nav.classList.add('nav-menu__link--ativo');
