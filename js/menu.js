@@ -3,12 +3,6 @@ const headerNav = document.querySelector('[data-headerNav]');
 const url=  window.location.pathname;
 
 
-
-
-
-
-
-
  function criarMenu(){
    let urlPage =''
    if(url != '/' && url != '/index.html')
@@ -18,12 +12,12 @@ const url=  window.location.pathname;
 
     headerMenu.innerHTML = `
          <div class="header__container">
-        <button class="header__menu" id="menu-nav"><img class="header__menu-imagem" src="../img/menu.svg" alt="menu"> </button>
+        <button class="header__menu" id="menu-nav" ><img class="header__menu-imagem" src="../img/menu.svg" alt="menu"> </button>
         <img class="header__imagem-logo" src="../img/Logo.png" alt="Logo Finança Pessoal">
         <div class="header__user">
            <p class="header__user-acronym">WF</p>       
         </div>
-        </div>
+        
     
     `
     headerNav.innerHTML=`
