@@ -80,14 +80,18 @@
 
 @media screen and (min-width: 1280px){
     .header__container{
-        justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr auto;
             }
     .header__imagem-logo{
         width: 20%;
+        justify-self:center ;
+        margin-left: 47px;
+        
     }
 
     .header__user{
-        margin-left: 10%;
+        
     }
     .header__user-acronym{
         padding: 1em;
@@ -98,6 +102,7 @@
  
     .nav-menu{
         display: inline-block;
+        width: 200px;
 
     }
    

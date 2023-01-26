@@ -1,5 +1,9 @@
 .footer{
-    background-color: var(--preto);
+    
+  background-color: var(--preto);
+ z-index: 1;
+  width: 100%;
+  
 
 }
 .footer__container{

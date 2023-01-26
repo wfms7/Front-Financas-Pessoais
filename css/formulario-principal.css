@@ -1,0 +1,85 @@
+.fomulario__principal{
+    
+}
+.formulario__campo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 1em;
+}
+
+.campo__etiqueta{
+    font-weight: 700;
+  
+}
+
+.campo__escrita{
+    padding: .5rem;
+    margin: .3em;
+    border: none;
+    background-color: transparent;
+   outline: none;
+   border-bottom: 1px solid var(--preto);
+}
+
+
+.campo__escrita:focus{
+    outline: none;
+    border-bottom: 2px solid var(--rosa-escuro);
+    font-size: 24px;
+    left: 0px;
+    background-color: var(--branco);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.container__button{
+ display: flex;
+ margin:  1rem;
+ text-align: center;
+  column-gap: 1rem;
+}
+
+.formulario__botao{
+    flex-grow: 1;
+    background-color: var(--branco);
+    padding: 1rem;
+    border: 1px solid var(--preto) ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 820px) {
+
+    .fomulario__principal{
+     margin: 4rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+
+    .fomulario__principal{
+        margin: 1rem 10%;
+        display: grid;
+        grid-template-columns: repeat(3 , auto) ;
+    }
+    .formulario__campo:nth-child(1){
+
+        grid-column: 1/4;
+    }
+
+    .formulario__campo:nth-child(2){
+
+        grid-column: 1/4;
+    }
+    .formulario__campo:nth-child(4){
+
+        grid-column: 2/4;
+    }
+
+    .container__button{
+        grid-column: 3/4;
+    }
+}

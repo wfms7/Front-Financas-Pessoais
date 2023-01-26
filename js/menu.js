@@ -36,6 +36,7 @@ const pag =  document.querySelector('[data-pag]').dataset.pag;
         <li class="nav-menu__item"><a href="${urlPage}/page/despesas.html" class="nav-menu__link" data-url>Despesas</a></li>
         <li class="nav-menu__item"><a href="${urlPage}/page/cartaocredito.html" class="nav-menu__link"data-url>Cartão de Credito</a></li>
         <li class="nav-menu__item"><a href="${urlPage}/page/renda.html" class="nav-menu__link" data-url>Renda</a></li>
+        <li class="nav-menu__item"><a href="${urlPage}/page/addusuario.html" class="nav-menu__link" data-url>Adicionar Usuario</a></li>
     </ul>
     `
    
