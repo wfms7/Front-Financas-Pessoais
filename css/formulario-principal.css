@@ -1,6 +1,9 @@
 .fomulario__principal{
     
 }
+a:link{
+    text-decoration: none;
+}
 .formulario__campo{
     display: flex;
     flex-direction: column;
@@ -43,12 +46,15 @@
 .formulario__botao{
     flex-grow: 1;
     background-color: var(--branco);
-    padding: 1rem;
-    border: 1px solid var(--preto) ;
+    font-size: 16px;
+    padding: 1em;
+    border: 1px solid var(--preto-comTransparencia) ;
     text-decoration: none;
     text-transform: uppercase;
+    color: var(--preto);
     font-weight: 700;
     border-radius: 10px;
+    text-align: center;
 }
 
 @media screen and (min-width: 820px) {
@@ -59,6 +65,7 @@
 }
 
 @media screen and (min-width: 1280px){
+
 
     .fomulario__principal{
         margin: 1rem 10%;
@@ -90,6 +97,11 @@
         background-color: var(--branco);
         transition: 0.5s;
         border-radius: 10px;
+    }
+
+    .formulario__botao:hover{
+        color: var(--branco);
+        background-color: var(--rosa-escuro);
     }
     
 }
