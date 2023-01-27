@@ -69,29 +69,6 @@
     justify-content: center;
  }
 
- .viwer-icon{
-    background-image: url("../img/eye.svg");
-    width: 24px;
-    height:  24px;
-    background-repeat: no-repeat;
-    
- }
-
- .edit-icon{
-    background-image: url("../img/edit-2.svg");
-    width: 24px;
-    height:  24px;
-    background-repeat: no-repeat;
-    
- }
-
- .trash-icon{
-    background-image: url("../img/trash-2.svg");
-    width: 24px;
-    height:  24px;
-    background-repeat: no-repeat;
-    
- }
  .perfil__button:nth-child(3n){
     border-right: 0;
  }
