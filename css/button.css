@@ -17,7 +17,7 @@
     padding: 1rem 3rem;
 }
 
-.despesas__container-button-add .button-principal{
+.listaGrid__container-button-add .button-principal{
     border-radius: 100%;
     padding: 1rem;
     transform: translateY(-90px);
@@ -63,7 +63,7 @@
     padding: .5rem 4rem;
 }
 
-.despesas__container-button-add .button-principal{
+.listaGrid__container-button-add .button-principal{
 
     border-radius: 10px;
 }
