@@ -55,30 +55,19 @@
 
  .perfil__container-button{
     display: flex;
-    align-items: flex-end;
-    margin: 2rem 0;
+    flex-wrap: wrap;
+     column-gap: .5rem;
+     align-items: center;
+     justify-content: center;
+
+    
+    
     
  }
  
- .perfil__button{
-    background-color: var(--branco);
-    padding: 1em;
-    flex-grow: 1;
-    border:  0.5px solid var(--preto-comTransparencia);
-    display: flex;
-    justify-content: center;
- }
+ 
 
- .perfil__button:nth-child(3n){
-    border-right: 0;
- }
- .perfil__button:nth-child(3n+1){
-    border-left: 0;
- }
-
- .perfil__button-text{
-    display: none;
- }
+ 
 
 
  /*======================= ===========================*/
@@ -169,55 +158,6 @@
   
 
 }
-.perfil__container-button{
-    margin-top: 1rem;
-    padding:  0 15em;
-}
-.perfil__button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: .5em;
- 
-}
-
-.perfil__button:hover{
-    background-color: var(--rosa-escuro);
-    color:var(--branco);
-    
-
-}
-
-.perfil__button:hover .viwer-icon {
-    background-image: url("../img/eye-w.svg");
-}
-
-.perfil__button:hover .edit-icon {
-    background-image: url("../img/edit-w-2.svg");
-}
-
-.perfil__button:hover  .trash-icon {
-    background-image: url("../img/trash-w-2.svg");
-}
-
-.perfil__button-text{
-    display: inline-block;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-left: 1rem;
-    font-weight: 700;
-    
- }
-
-.perfil__button:nth-child(3n){
-    border-right: .5px solid var(--preto-comTransparencia);
-    border-radius: 0 50px 50px 0;
- }
- .perfil__button:nth-child(3n+1){
-    border-left: .5px solid var(--preto-comTransparencia);
-    border-radius: 50px 0 0 50px;
- }
 
 
 }

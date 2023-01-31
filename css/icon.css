@@ -38,6 +38,14 @@
     background-repeat: no-repeat;
  }
 
+
+ .icon-plus{
+   background-image: url("../img/plus-circle-rosa.svg");
+   width: 24px;
+   height:  24px;
+   background-repeat: no-repeat;
+ }
+
  @media screen and (min-width: 1280px){
 
     .edit-icon{
@@ -57,5 +65,11 @@
         background-size: 16px 16px;
         width: 16px;
         height:  16px;
+     }
+
+     .icon-plus{
+      background-size: 16px 16px;
+      width: 16px;
+      height:  16px;
      }
  }

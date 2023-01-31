@@ -9,16 +9,65 @@
     <title>Finanças Pessoais</title>
 </head>
 <body>
-    <header class="header" data-headerMenu data-pag="renda">
+    <header class="header" data-headerMenu>
 
     </header>
-    <nav class="nav-menu" data-headerNav> 
+    <nav class="nav-menu" data-headerNav data-pag="renda"> 
      </nav>
-     <main></main>
+     <main class="main">
+        <section class="titulo">
+            <h1 class="titulo__principal">Renda</h1>
+            <p class="titulo__data" data-today>14 - Janeiro - 2023</p>
+        </section>
+        <section>
+            <div class="listaGrid__container-button-add">
+            <a href="../page/addrenda.html" class="button-principal">
+                <div class="button-img icon-plus"></div>
+                <span class="button-text">Adicionar Renda</span>
+            </a>
+        </div>
+        </section>
+        <section class="listaGrid__tabela">
+            <div class="listaGrid__container-titulo" data-btn-listagrid  >
+            <label class="listaGrid__id" hidden>1</label>
+            <h2 class="listaGrid__titulo" >Salario</h2>
+            <span class="listaGrid__icon  chevrons-down-icon" data-icon-UpDn></span>
+            </div>
+            <div class="listaGrid__continer-dados" data-listagrid-container>
+                <label class="listaGrid__label listaGrid__tipo">Tipo</label>
+                <p class="listaGrid__info listaGrid__tipoValor">Fixo</p>
+                <label class="listaGrid__label listaGrid__segmento">Mensal</label>
+                <p class="listaGrid__info listaGrid__segmentoValor">Sim</p>
+                <label class="listaGrid__label listaGrid__grupo-label listaGrid__pediodo">Periodo</label>
+                <div class="listaGrid__group listaGrid__pediodoValor">
+                <p class="listaGrid__info ">Inicio: 01/01/2023</p>
+                <p class="listaGrid__info ">Fim: indefinido</p>
+                </div>
+                <label class="listaGrid__label listaGrid__valor">Valor</label>
+                <p class="listaGrid__info listaGrid__valorDinheiro">R$ 3300,00</p>
+            </div>
+            <div class="listaGrid__container-botao">
+                <a href="" class="button-principal">
+                    <div class="button-img edit-icon" aria-label="Botão editar"></div>
+                    
+                    <span class="button-text"> Editar </span>
+                <a href="" class="button-principal">
+                    <div class="button-img trash-icon" aria-label="Botão deletar"></div>
+                    
+                    <span class="button-text"> Deletar </span>
+                </a>
+            </div>
+        </section>
+
+     
+       
+
+     </main>
      <footer class="footer" data-footer>
     </footer>
      <script src="../js/menu.js"></script>
      <script src="../js/footer.js"></script>
+     <script src="../js/listaGrid-card.js"></script>
      <script src="../js/main.js" type="module"></script>
 </body>
 </html>

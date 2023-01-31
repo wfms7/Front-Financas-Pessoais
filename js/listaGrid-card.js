@@ -1,11 +1,11 @@
 
-const btnCardDespesas = document.querySelectorAll('[data-btn-despesas]') ;
+const btnCardDespesas = document.querySelectorAll('[data-btn-listagrid]') ;
 
 
 function openCard(btnOpen, iconUpDn){
 
     
-    btnOpen.classList.toggle('despesas__continer-dados-ativo');
+    btnOpen.classList.toggle('listaGrid__continer-dados-ativo');
     iconUpDn.classList.toggle('chevrons-down-icon')
     iconUpDn.classList.toggle('chevrons-up-icon')
 }
@@ -18,7 +18,7 @@ btnCardDespesas.forEach( btn => {
 
         let divprincipal = btn.parentNode;
        // divprincipal = divprincipal.parentNode;
-        let btnOpen = divprincipal.querySelector('[data-despesas-container]')
+        let btnOpen = divprincipal.querySelector('[data-listagrid-container]')
         let iconUpDn = divprincipal.querySelector('[data-icon-UpDn]')
 
         openCard(btnOpen,iconUpDn)
